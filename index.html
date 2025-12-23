@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>คุณคือใครใน Red Dead Redemption 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=IM+Fell+English&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'IM Fell English', serif;
+      background: radial-gradient(circle at top, #3b2f23, #120d08);
+      color: #f5e9d6;
+    }
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(to bottom, #2a1d14, transparent);
+    }
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      max-width: 700px;
+      margin: 15px auto 0;
+      font-size: 1.1rem;
+      opacity: 0.85;
+    }
+    .quiz {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .question {
+      margin-bottom: 35px;
+      padding: 20px;
+      background: rgba(0,0,0,0.35);
+      border-left: 4px solid #a67c52;
+    }
+    .question h2 {
+      font-size: 1.25rem;
+      margin-bottom: 15px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+      line-height: 1.4;
+    }
+    .options input {
+      margin-right: 8px;
+    }
+    button {
+      display: block;
+      margin: 50px auto;
+      padding: 15px 40px;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      background: #7b4a24;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 1px;
+    }
+    button:hover {
+      background: #a0673a;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Added Characters: Lenny Summers, Javier Escuella, Abigail Roberts, Pearson, Kieran Duffy -->
+    <h1>คุณคือใครใน Red Dead Redemption 2</h1>
+    <p>
+      เมื่อโลกไม่ยุติธรรม ไม่มีฮีโร่ ไม่มีผู้ร้ายอย่างแท้จริง
+      คำถามเหล่านี้จะไม่ถามว่าคุณ “อยากเป็นใคร”
+      แต่ถามว่า “คุณเป็นใครจริง ๆ เมื่อไม่มีทางเลือกที่ถูกต้อง”
+    </p>
+  </header>
+
+  <main class="quiz">
+
+    <!-- Question 1 -->
+    <div class="question">
+      <h2>1. เมื่อคุณมองย้อนกลับไปในชีวิต สิ่งใดหลอกหลอนคุณมากที่สุด</h2>
+      <div class="options">
+        <label><input type="radio" name="q1"> การไม่ทำในสิ่งที่ควรทำ</label>
+        <label><input type="radio" name="q1"> การทำร้ายคนที่รักโดยไม่ตั้งใจ</label>
+        <label><input type="radio" name="q1"> การเชื่อมั่นในความคิดของตัวเองมากเกินไป</label>
+        <label><input type="radio" name="q1"> การปล่อยให้ความแค้นควบคุมชีวิต</label>
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <h2>2. หากต้องเลือกระหว่างศีลธรรมกับการเอาตัวรอด คุณจะเลือกอะไร</h2>
+      <div class="options">
+        <label><input type="radio" name="q2"> ศีลธรรม แม้ต้องแลกด้วยชีวิต</label>
+        <label><input type="radio" name="q2"> เอาตัวรอด เพื่อมีโอกาสแก้ตัว</label>
+        <label><input type="radio" name="q2"> อุดมการณ์สำคัญกว่าทุกอย่าง</label>
+        <label><input type="radio" name="q2"> เอาตัวรอดก่อน โลกไม่เคยปรานี</label>
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <h2>3. คุณเชื่อว่าคนเราเปลี่ยนแปลงตัวเองได้จริงหรือไม่</h2>
+      <div class="options">
+        <label><input type="radio" name="q3"> ได้ หากยอมรับความผิดในอดีต</label>
+        <label><input type="radio" name="q3"> ได้ แต่ต้องมีคนที่เชื่อในเรา</label>
+        <label><input type="radio" name="q3"> ไม่ คนเราก็เป็นแบบนี้แหละ</label>
+        <label><input type="radio" name="q3"> ได้ หากกล้ายอมรับความจริง</label>
+      </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <h2>4. เมื่อแผนที่คุณเชื่อมาตลอดเริ่มพัง คุณจะทำอย่างไร</h2>
+      <div class="options">
+        <label><input type="radio" name="q4"> ปรับตัว ยอมรับความจริง</label>
+        <label><input type="radio" name="q4"> ดันทุรังต่อไป ต้องมีทาง</label>
+        <label><input type="radio" name="q4"> ปกป้องคนที่สำคัญที่สุด</label>
+        <label><input type="radio" name="q4"> ใช้โอกาสนี้เอาประโยชน์</label>
+      </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+      <h2>5. ความเจ็บปวดในอดีตสอนอะไรคุณ</h2>
+      <div class="options">
+        <label><input type="radio" name="q5"> ให้เข้มแข็งและไม่ยอมเป็นเหยื่ออีก</label>
+        <label><input type="radio" name="q5"> ให้ระวังและเงียบมากขึ้น</label>
+        <label><input type="radio" name="q5"> ให้พยายามทำสิ่งที่ถูกต้องก่อนสาย</label>
+        <label><input type="radio" name="q5"> ให้โลกเห็นว่าอย่ามายุ่งกับฉัน</label>
+      </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">
+      <h2>6. ถ้าไม่มีใครเห็น ไม่มีรางวัล คุณจะยังทำความดีหรือไม่</h2>
+      <div class="options">
+        <label><input type="radio" name="q6"> ทำ เพราะมันถูกต้อง</label>
+        <label><input type="radio" name="q6"> ทำ หากมันไม่ทำร้ายใคร</label>
+        <label><input type="radio" name="q6"> ขึ้นอยู่กับผลลัพธ์</label>
+        <label><input type="radio" name="q6"> ไม่ โลกไม่เคยให้รางวัล</label>
+      </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">
+      <h2>7. คุณกลัวอะไรมากที่สุดในใจลึก ๆ</h2>
+      <div class="options">
+        <label><input type="radio" name="q7"> ตายโดยไม่มีความหมาย</label>
+        <label><input type="radio" name="q7"> สูญเสียครอบครัว</label>
+        <label><input type="radio" name="q7"> การสูญเสียอำนาจและการควบคุม</label>
+        <label><input type="radio" name="q7"> การอ่อนแอ</label>
+      </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">
+      <h2>8. ถ้าต้องอยู่คนเดียวเพื่อรักษาศักดิ์ศรีของตัวเอง</h2>
+      <div class="options">
+        <label><input type="radio" name="q8"> ผมยอม อย่างน้อยไม่ทรยศตัวเอง</label>
+        <label><input type="radio" name="q8"> ผมพยายามอธิบายให้คนเข้าใจ</label>
+        <label><input type="radio" name="q8"> ผมเลือกอยู่กับคนของผม</label>
+        <label><input type="radio" name="q8"> ผมเลือกฝั่งที่ชนะ</label>
+      </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">
+      <h2>9. คุณเชื่อว่ามนุษย์โดยพื้นฐานเป็นอย่างไร</h2>
+      <div class="options">
+        <label><input type="radio" name="q9"> ดี แม้โลกจะโหด</label>
+        <label><input type="radio" name="q9"> ดีเมื่อยังไม่ถูกบีบ</label>
+        <label><input type="radio" name="q9"> เห็นแก่ตัวเป็นส่วนใหญ่</label>
+        <label><input type="radio" name="q9"> ขึ้นอยู่กับสิ่งที่เชื่อ</label>
+      </div>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">
+      <h2>10. สุดท้ายแล้ว คุณอยากให้โลกจดจำคุณว่าอย่างไร</h2>
+      <div class="options">
+        <label><input type="radio" name="q10"> คนที่พยายามทำสิ่งที่ถูกต้อง</label>
+        <label><input type="radio" name="q10"> คนที่ปกป้องครอบครัว</label>
+        <label><input type="radio" name="q10"> คนที่ยืนหยัดในอุดมการณ์</label>
+        <label><input type="radio" name="q10"> คนที่รอดในโลกโหดร้าย</label>
+      </div>
+    </div>
+
+    <button>ดูผลลัพธ์</button>
+
+      <!-- Result Section -->
+    <section id="result" style="display:none; margin-top:60px; background:rgba(0,0,0,0.45); padding:30px; border-left:4px solid #a67c52;">
+  <h2 style="font-family:'Cinzel',serif;">ผลลัพธ์ตัวตนของคุณ</h2>
+  <div id="resultCard" style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;">
+    <img id="charImage" src="" alt="character" style="width:180px;border:3px solid #a67c52;background:#000" />
+    <div>
+      <p id="resultText"></p>
+      <button id="saveBtn" style="margin-top:20px">บันทึกผลลัพธ์</button>
+    </div>
+  </div>
+</section>
+
+    <script>
+// --- Personality Scoring System ---
+const characters = {
+    arthur: {
+    name: "Arthur Morgan",
+    score: 0,
+    desc: "การไถ่บาป ศีลธรรม และการยอมรับความผิดพลาด",
+    img: "images/arthur.jpg"
+  },
+  john: {
+    name: "John Marston",
+    score: 0,
+    desc: "ครอบครัว การเริ่มต้นใหม่ และความรับผิดชอบ",
+    img: "images/john.jpg"
+  },
+  dutch: {
+    name: "Dutch van der Linde",
+    score: 0,
+    desc: "อุดมการณ์ อัตตา และความกลัวการสูญเสียอำนาจ",
+    img: "images/dutch.jpg"
+  },
+    hosea: {
+    name: "Hosea Matthews",
+    score: 0,
+    desc: "ปัญญา การยอมรับความจริง และการถอยอย่างมีศักดิ์ศรี",
+    img: "images/hosea.jpg"
+  },
+  sadie: {
+    name: "Sadie Adler",
+    score: 0,
+    desc: "ความเจ็บปวดที่แปรเปลี่ยนเป็นพลัง",
+    img: "images/sadie.jpg"
+  },
+  charles: {
+    name: "Charles Smith",
+    score: 0,
+    desc: "ศักดิ์ศรี ความถูกต้อง และความสงบภายใน",
+    img: "images/charles.jpg"
+  },
+    micah: {
+    name: "Micah Bell",
+    score: 0,
+    desc: "การเอาตัวรอดและโลกที่โหดร้าย",
+    img: "images/micah.jpg"
+  },
+  lenny: {
+    name: "Lenny Summers",
+    score: 0,
+    desc: "อุดมคติ ความหวัง และความยุติธรรม",
+    img: "images/lenny.jpg"
+  },
+  javier: {
+    name: "Javier Escuella",
+    score: 0,
+    desc: "ความภักดีและอัตลักษณ์",
+    img: "images/javier.jpg"
+  },
+   abigail: {
+    name: "Abigail Marston",
+    score: 0,
+    desc: "ความเป็นแม่และการปกป้องอนาคต",
+    img: "images/abigail.jpg"
+  },
+  pearson: {
+    name: "Simon Pearson",
+    score: 0,
+    desc: "การหลบเลี่ยงและการเอาตัวรอดแบบเงียบ ๆ",
+    img: "images/pearson.jpg"
+  },
+  kieran: {
+    name: "Kieran Duffy",
+    score: 0,
+    desc: "ความกลัวและการอยากเป็นที่ยอมรับ",
+    img: "images/kieran.jpg"
+  },
+};
+
+// Map answers to characters (simplified demo mapping)
+const answerMap = {
+  q1: ['arthur','john','dutch','sadie'],
+  q2: ['charles','john','dutch','micah'],
+  q3: ['arthur','john','micah','hosea'],
+  q4: ['hosea','dutch','arthur','micah'],
+  q5: ['sadie','charles','arthur','micah'],
+  q6: ['arthur','charles','dutch','micah'],
+  q7: ['arthur','john','dutch','micah'],
+  q8: ['charles','arthur','john','micah'],
+  q9: ['arthur','hosea','micah','dutch'],
+  q10:['arthur','john','dutch','micah']
+};
+
+const button = document.querySelector('button');
+const resultSection = document.getElementById('result');
+const resultText = document.getElementById('resultText');
+const detailedAnalysis = {
+  arthur: "คุณคือคนที่กำลังเดินทางอยู่บนเส้นทางแห่งการไถ่บาป แม้ในอดีตอาจเคยทำผิดพลาด แต่คุณมีหัวใจที่ยิ่งใหญ่และพร้อมจะสละความสุขส่วนตัวเพื่อคนที่คุณรัก คุณมองโลกด้วยความเป็นจริงที่แฝงไปด้วยความห่วงใยและเกียรติยศ",
+  john: "คุณคือสัญลักษณ์ของความรับผิดชอบและการเริ่มต้นใหม่ คุณอาจเคยเป็นคนหลงทางหรือเลือดร้อน แต่ตอนนี้คุณรู้แล้วว่าสิ่งที่สำคัญที่สุดคือ 'ครอบครัว' และคุณพร้อมจะทำทุกอย่างเพื่อปกป้องอนาคตที่สงบสุข",
+  dutch: "คุณเป็นคนมีวิสัยทัศน์ มีเสน่ห์ และเปี่ยมไปด้วยอุดมการณ์ คุณเชื่อในอิสรภาพและไม่ยอมก้มหัวให้กับกฎเกณฑ์ที่ไม่เป็นธรรม แต่ระวังว่าความเชื่อมั่นที่แรงกล้าเกินไปอาจทำให้คุณมองข้ามความจริงที่อยู่ตรงหน้า",
+  hosea: "คุณคือเสียงแห่งเหตุผลและปัญญา คุณมองเห็นภาพรวมของสถานการณ์เสมอและรู้วิธีที่จะประนีประนอม คุณใช้ประสบการณ์ชีวิตในการนำทางและพยายามรักษาความสงบสุขท่ามกลางความวุ่นวายด้วยความสุขุม",
+  sadie: "คุณคือผู้รอดชีวิตที่แท้จริง ความเจ็บปวดในอดีตไม่ได้ทำให้คุณอ่อนแอลง แต่มันหล่อหลอมให้คุณกลายเป็นคนที่เด็ดเดี่ยว แข็งแกร่ง และไม่ยอมตกเป็นเหยื่อของโชคชะตาอีกต่อไป",
+  charles: "คุณเป็นคนที่มีเกียรติและมีจิตใจที่สงบเยือกเย็น คุณมักจะยืนหยัดเพื่อสิ่งที่ถูกต้องเสมอแม้ในยามลำบาก คุณเป็นที่พึ่งพาได้ มีความซื่อสัตย์เป็นที่ตั้ง และให้ความสำคัญกับจิตวิญญาณมากกว่าวัตถุ",
+  micah: "คุณคือผู้เอาตัวรอดในโลกที่โหดร้าย คุณเชื่อว่าความแข็งแกร่งและสัญชาตญาณเท่านั้นที่ทำให้คนอยู่รอด คุณไม่สนใจคำตัดสินของคนอื่นและพร้อมจะทำทุกอย่างเพื่อให้ตัวเองมีชีวิตรอดในสงครามนี้",
+  lenny: "คุณเป็นคนหนุ่มที่เปี่ยมไปด้วยความหวังและความกระตือรือร้น คุณเชื่อในความยุติธรรมและพยายามพิสูจน์ตัวเองเสมอ คุณฉลาด มีไหวพริบ และมีความซื่อตรงต่ออุดมคติอย่างแรงกล้า",
+  javier: "คุณเป็นคนที่มีความจงรักภักดีอย่างหาที่เปรียบไม่ได้ คุณให้ความสำคัญกับสายเลือด พี่น้อง และอุดมการณ์ของกลุ่ม คุณเป็นคนละเอียดอ่อน มีศิลปะในหัวใจ แต่ก็เด็ดขาดเมื่อต้องเผชิญกับศัตรู",
+  abigail: "คุณคือหัวใจสำคัญที่ยึดเหนี่ยวทุกคนไว้ด้วยกัน คุณมีความเป็นแม่ที่เข้มแข็งและมองโลกตามความเป็นจริง คุณไม่ต้องการชื่อเสียงหรือเงินทอง เพียงแค่ความปลอดภัยและความมั่นคงของคนที่คุณรักก็เพียงพอแล้ว",
+  pearson: "คุณเป็นคนที่ทำหน้าที่ของตัวเองอย่างเงียบๆ แม้จะไม่ใช่คนที่โดดเด่นในสนามรบ แต่คุณคือฟันเฟืองสำคัญที่ทำให้ทีมไปต่อได้ คุณรักความสงบและมักจะมองหาความสุขในสิ่งเล็กๆ น้อยๆ รอบตัว",
+  kieran: "คุณคือคนที่พยายามจะพิสูจน์ตัวเองท่ามกลางความกดดัน คุณมีจิตใจที่อ่อนโยนและต้องการเพียงที่พักพิงที่ปลอดภัย คุณพร้อมจะมอบความจริงใจให้กับคนที่ให้โอกาสคุณเริ่มต้นชีวิตใหม่"
+};
+
+const summaryTemplates = {
+  arthur: "เส้นทางของคุณคือการค้นหาความหมายในนาทีสุดท้าย แม้โลกจะตัดสินคุณไปแล้ว แต่หัวใจของคุณรู้ดีว่าความดีงามที่แท้จริงคือการเสียสละเพื่อผู้อื่น",
+  john: "คุณคือภาพสะท้อนของความพยายามที่จะหลุดพ้นจากอดีต แม้โซ่ตรวนแห่งวันวานจะหนักอึ้ง แต่ความรักที่มีต่อครอบครัวคือเข็มทิศที่นำทางคุณเสมอ",
+  dutch: "คุณคือผู้นำที่มีแรงดึงดูดมหาศาล แต่กำลังติดอยู่ในกรงขังของอุดมการณ์ตัวเอง การดิ้นรนเพื่ออิสรภาพของคุณนั้นสวยงามแต่ก็น่าหวาดหวั่น",
+  hosea: "คุณคือแสงสว่างแห่งปัญญาที่พยายามประคับประคองทุกอย่างไว้ ความเข้าใจในสัจธรรมของโลกทำให้คุณเป็นผู้ที่สง่างามที่สุดท่ามกลางความล่มสลาย",
+  sadie: "จากกองเถ้าถ่านสู่เปลวเพลิงที่ไม่มีวันมอด คุณคือตัวแทนของพลังที่เกิดจากความสูญเสีย และการเลือกที่จะกำหนดชะตาชีวิตด้วยมือของคุณเอง",
+  charles: "คุณคือความเงียบที่ทรงพลัง เป็นผู้ที่รู้จักตัวเองดีที่สุดท่ามกลางความวุ่นวาย ศักดิ์ศรีของคุณไม่ได้เกิดจากคำชมใคร แต่เกิดจากความซื่อสัตย์ต่อตนเอง",
+  micah: "คุณคือความจริงที่โหดร้ายของธรรมชาติ ในโลกที่ปลาใหญ่กินปลาเล็ก คุณเลือกที่จะเป็นผู้ล่าเพราะนั่นคือทางเดียวที่คุณจะรอดพ้นจากความตาย",
+  lenny: "คุณคือตัวแทนของความหวังและคนรุ่นใหม่ที่มองเห็นโลกดีกว่าที่มันเป็น ความเฉลียวฉลาดและความภักดีคือสิ่งที่จะนิยามตัวตนของคุณตลอดไป",
+  javier: "คุณคือความซื่อสัตย์ที่หยั่งรากลึก แม้บางครั้งโลกจะบีบให้ต้องเลือกว่าจะอยู่ข้างไหน แต่คุณจะยืนหยัดเคียงข้างคนที่คุณรักเสมอ",
+  abigail: "คุณคือรากฐานที่แข็งแกร่งที่สุด ความกล้าหาญของคุณคือการสู้กับโชคชะตาเพื่อสร้างอนาคตให้คนที่คุณรักในโลกที่แสนมืดมน",
+  pearson: "คุณคือมนุษย์ธรรมดาที่น่าจดจำที่สุด ความสุขของคุณคือการได้เห็นทุกคนปลอดภัย แม้โลกภายนอกจะวุ่นวาย แต่คุณคือความอบอุ่นที่ขาดไม่ได้",
+  kieran: "คุณคือดอกไม้ที่พยายามเติบโตบนพื้นดินที่แห้งแล้ง ความต้องการที่จะเป็นส่วนหนึ่งและการมองหาความดีในตัวคนอื่น คือสิ่งที่ทำให้คุณยังคงความเป็นมนุษย์"
+};
+
+const connectionText = {
+  arthur: "ความใจกว้างและความเห็นใจผู้อื่นของ",
+  john: "ความรับผิดชอบและการปกป้องของ",
+  dutch: "วิสัยทัศน์และการมองการณ์ไกลของ",
+  hosea: "ความสุขุมและความรอบคอบของ",
+  sadie: "ความแกร่งและความเด็ดเดี่ยวของ",
+  charles: "ความซื่อตรงและอุดมการณ์ของ",
+  micah: "สัญชาตญาณการเอาตัวรอดของ",
+  lenny: "ความฉลาดและไหวพริบของ",
+  javier: "ความจงรักภักดีที่เข้มแข็งของ",
+  abigail: "ความมั่นคงและความรักที่จริงใจของ",
+  pearson: "ความถนอมน้ำใจและความอบอุ่นของ",
+  kieran: "ความอ่อนโยนและการมองหาโอกาสใหม่ของ"
+};
+
+button.addEventListener('click', () => {
+  // reset scores
+  Object.values(characters).forEach(c => c.score = 0);
+
+  // calculate
+ Object.keys(answerMap).forEach(q => {
+    const checked = document.querySelector(`input[name=${q}]:checked`);
+    if (!checked) return;
+    const index = Array.from(document.querySelectorAll(`input[name=${q}]`)).indexOf(checked);
+    const charKey = answerMap[q][index];
+    if (characters[charKey]) characters[charKey].score++;
+  });
+
+  // sort results
+  const sorted = Object.entries(characters).sort((a,b)=>b[1].score-a[1].score);
+  const mainKey = sorted[0][0];
+  const main = sorted[0][1];
+  const secondaryKey = sorted[1][0];
+  const secondary = sorted[1][1];
+
+//
+document.getElementById("charImage").src = main.img;
+
+
+  // render result
+  resultSection.style.display = 'block';
+  resultText.innerHTML = `
+    <div style="margin-bottom: 25px;">
+      <h3 style="color: #a67c52; margin-bottom: 5px; font-family: 'Cinzel', serif;">ตัวตนหลักของคุณคือ:</h3>
+      <span style="font-size: 2.2rem; font-weight: bold; color: #fff; text-transform: uppercase; letter-spacing: 2px;">${main.name}</span>
+      <p style="font-size: 1.15rem; line-height: 1.7; color: #f5e9d6; font-style: italic; margin-top: 10px; border-left: 3px solid #a67c52; padding-left: 15px;">
+        "${detailedAnalysis[mainKey]}"
+      </p>
+    </div>
+
+    <div style="border-top: 1px solid rgba(166, 124, 82, 0.3); padding-top: 15px; margin-bottom: 25px;">
+      <h4 style="color: #a67c52; margin-bottom: 5px;">อิทธิพลที่ซ่อนอยู่ (The Echo of ${secondary.name}):</h4>
+      <p style="font-size: 1.05rem; line-height: 1.6; opacity: 0.9;">
+        นอกจากตัวตนหลักแล้ว คุณยังมีส่วนผสมที่น่าสนใจจาก <strong>${secondary.name}</strong> 
+        ซึ่งสะท้อนออกมาผ่านความรู้สึกที่ว่า ${secondary.desc} สิ่งนี้ทำให้การตัดสินใจของคุณมีมิติที่ลึกซึ้งยิ่งขึ้น
+      </p>
+    </div>
+
+    <div style="background: rgba(42, 29, 20, 0.9); padding: 25px; border-radius: 4px; border: 1px solid #a67c52; box-shadow: inset 0 0 20px rgba(0,0,0,0.5);">
+      <strong style="color: #a67c52; font-family: 'Cinzel', serif; font-size: 1.1rem; display: block; margin-bottom: 12px; border-bottom: 1px solid #443322; padding-bottom: 5px;">
+        บทสรุปวิถีชีวิต (The Outlaw's Legacy)
+      </strong>
+      <p style="line-height: 1.8; font-size: 1.05rem; color: #f5e9d6; text-align: justify;">
+        ชีวิตของคุณเปรียบเสมือนการเดินทางของ <strong>${main.name}</strong> ที่ถูกแต่งแต้มด้วยสีสันจาก 
+        <strong>${secondary.name}</strong> อย่างมีนัยสำคัญ ${summaryTemplates[mainKey]} 
+        แต่ในขณะเดียวกัน <em>${connectionText[secondaryKey] || "ตัวตนของ"}</em> <strong>${secondary.name}</strong> 
+        ได้เข้ามาช่วยขัดเกลาให้คุณเป็นคนที่รู้จักยืดหยุ่น 
+        คุณไม่ใช่คนที่เดินไปตามกรอบที่ใครวางไว้ แต่คุณเลือกที่จะสร้างวิถีของตัวเองท่ามกลางโลกสีเทาใบนี้
+      </p>
+    </div>
+  `;
+
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+});
+</script>
+  </main>
+
+  <footer>
+    Red Dead Redemption 2 © Rockstar Games — Fan-made personality quiz
+  </footer>
+</body>
+</html>
